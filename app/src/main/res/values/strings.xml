@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quick Lock</string>
+    <string name="tile_label">Lock</string>
+    <string name="accessibility_label">Quick Lock screen locker</string>
+    <string name="accessibility_description">Allows Quick Lock to turn off and lock your screen when you tap the Quick Settings tile. This service does not read anything on your screen.</string>
+    <string name="tile_request_done">If prompted, tap Add. The Lock tile is now available in Quick Settings.</string>
+    <string name="heading">Quick Lock setup</string>
+    <string name="step_one">Step 1: Turn on the accessibility permission. This lets the tile lock your screen. Tap the button, find \"Quick Lock\", and switch it on.</string>
+    <string name="step_two">Step 2: Add the Lock tile to your Quick Settings pull-down. Tap the button below, then tap Add when asked.</string>
+    <string name="note">You only do this once. After that, one tap on the Lock tile locks your phone.</string>
+    <string name="btn_accessibility">1. Open accessibility settings</string>
+    <string name="btn_add_tile">2. Add the Lock tile</string>
+</resources>
