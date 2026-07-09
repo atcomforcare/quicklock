@@ -29,6 +29,19 @@
             </intent-filter>
         </service>
 
+        <receiver
+            android:name=".LockWidgetProvider"
+            android:exported="true"
+            android:icon="@drawable/ic_lock"
+            android:label="Quick Lock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/lock_widget_info" />
+        </receiver>
+
         <service
             android:name=".LockAccessibilityService"
             android:exported="true"
